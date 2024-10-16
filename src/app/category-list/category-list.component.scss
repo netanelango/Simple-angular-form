@@ -1,0 +1,28 @@
+.category-list {
+  h2 {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      cursor: pointer;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      text-align: center;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+
+      &.selected { // Styles pour l'élément sélectionné
+        background-color: #007bff; /* Couleur de fond lorsque sélectionné */
+        color: white; /* Couleur du texte lorsque sélectionné */
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "categories": [
+    { "id": 1, "name": "Mangas" },
+    { "id": 2, "name": "Football" },
+    { "id": 3, "name": "Basketball" }
+  ],
+  "questions": [
+    { "id": 1, "questionLabel": "Dans le manga Naruto, qui est le maître de l'équipe 7 ?", "categoryId": 1 },
+    { "id": 2, "questionLabel": "Quel est le nom du capitaine du bateau de Luffy dans One Piece ?", "categoryId": 1 },
+    { "id": 3, "questionLabel": "Dans Dragon Ball Z, quel est le nom du frère de Goku ?", "categoryId": 1 },
+    { "id": 4, "questionLabel": "Dans Death Note, quel est le nom de l’esprit qui accompagne Light Yagami ?", "categoryId": 1 },
+    { "id": 5, "questionLabel": "Dans My Hero Academia, quel est le véritable nom de All Might ?", "categoryId": 1 },
+    { "id": 6, "questionLabel": "Dans Attack on Titan, qui est le premier Titan que Eren affronte ?", "categoryId": 1 },
+    { "id": 7, "questionLabel": "Quel est le métier de Kenshin dans Kenshin le Vagabond avant de devenir un vagabond ?", "categoryId": 1 },
+    { "id": 8, "questionLabel": "Dans Hunter x Hunter, quel est le nom du Nen de Gon ?", "categoryId": 1 },
+    { "id": 9, "questionLabel": "Dans Fairy Tail, qui est le dragon de feu qui a élevé Natsu ?", "categoryId": 1 },
+    { "id": 10, "questionLabel": "Dans Demon Slayer, quel est le nom de la sœur de Tanjiro ?", "categoryId": 1 },
+
+    { "id": 11, "questionLabel": "Quel joueur a remporté le Ballon d'Or en 2021 ?", "categoryId": 2 },
+    { "id": 12, "questionLabel": "Quelle équipe a remporté la Coupe du Monde de la FIFA en 2018 ?", "categoryId": 2 },
+    { "id": 13, "questionLabel": "Quel club a remporté la Ligue des Champions de l'UEFA en 2022 ?", "categoryId": 2 },
+    { "id": 14, "questionLabel": "Dans quel club Kylian Mbappé a-t-il commencé sa carrière professionnelle ?", "categoryId": 2 },
+    { "id": 15, "questionLabel": "Quel pays a remporté le plus de Coupes du Monde de la FIFA ?", "categoryId": 2 },
+    { "id": 16, "questionLabel": "Quel joueur détient le record de buts en une saison de Ligue 1 (France) ?", "categoryId": 2 },
+    { "id": 17, "questionLabel": "Quel joueur a marqué le but décisif en finale de la Coupe du Monde 2014 ?", "categoryId": 2 },
+    { "id": 18, "questionLabel": "Dans quel club Erling Haaland évoluait-il avant de rejoindre Manchester City ?", "categoryId": 2 },
+    { "id": 19, "questionLabel": "Qui est l'actuel meilleur buteur de l'histoire de la Ligue des Champions de l'UEFA ?", "categoryId": 2 },
+    { "id": 20, "questionLabel": "Quel club est surnommé 'Les Reds' ?", "categoryId": 2 },
+
+    { "id": 21, "questionLabel": "Quel joueur a remporté le titre de MVP de la saison NBA 2021-2022 ?", "categoryId": 3 },
+    { "id": 22, "questionLabel": "Quelle équipe a remporté le championnat NBA en 2023 ?", "categoryId": 3 },
+    { "id": 23, "questionLabel": "Dans quel club Michael Jordan a-t-il passé la majorité de sa carrière ?", "categoryId": 3 },
+    { "id": 24, "questionLabel": "Quel joueur détient le record de points marqués en un seul match NBA (100 points) ?", "categoryId": 3 },
+    { "id": 25, "questionLabel": "Quel est le surnom de la salle des Golden State Warriors ?", "categoryId": 3 },
+    { "id": 26, "questionLabel": "Combien de titres NBA Bill Russell a-t-il remportés avec les Boston Celtics ?", "categoryId": 3 },
+    { "id": 27, "questionLabel": "Quel joueur a été le premier choix de la draft NBA 2003 ?", "categoryId": 3 },
+    { "id": 28, "questionLabel": "Quel pays a remporté la médaille d'or de basketball masculin aux Jeux olympiques de Tokyo 2021 ?", "categoryId": 3 },
+    { "id": 29, "questionLabel": "Dans quel club Luka Dončić a-t-il joué avant de rejoindre la NBA ?", "categoryId": 3 },
+    { "id": 30, "questionLabel": "Quel joueur est surnommé 'The Greek Freak' ?", "categoryId": 3 }
+  ],
+  "answers": [
+    { "questionId": 1, "answerLabel": "Jiraiya", "isCorrect": false },
+    { "questionId": 1, "answerLabel": "Iruka", "isCorrect": false },
+    { "questionId": 1, "answerLabel": "Kakashi", "isCorrect": true },
+    { "questionId": 1, "answerLabel": "Asuma", "isCorrect": false },
+
+    { "questionId": 2, "answerLabel": "Red-Haired Shanks", "isCorrect": false },
+    { "questionId": 2, "answerLabel": "Monkey D. Luffy", "isCorrect": true },
+    { "questionId": 2, "answerLabel": "Portgas D. Ace", "isCorrect": false },
+    { "questionId": 2, "answerLabel": "Trafalgar Law", "isCorrect": false },
+
+    { "questionId": 3, "answerLabel": "Vegeta", "isCorrect": false },
+    { "questionId": 3, "answerLabel": "Raditz", "isCorrect": true },
+    { "questionId": 3, "answerLabel": "Nappa", "isCorrect": false },
+    { "questionId": 3, "answerLabel": "Bardock", "isCorrect": false },
+
+    { "questionId": 4, "answerLabel": "Rem", "isCorrect": false },
+    { "questionId": 4, "answerLabel": "Ryuk", "isCorrect": true },
+    { "questionId": 4, "answerLabel": "Misa", "isCorrect": false },
+    { "questionId": 4, "answerLabel": "L", "isCorrect": false },
+
+    { "questionId": 5, "answerLabel": "Shoto Todoroki", "isCorrect": false },
+    { "questionId": 5, "answerLabel": "Izuku Midoriya", "isCorrect": false },
+    { "questionId": 5, "answerLabel": "Toshinori Yagi", "isCorrect": true },
+    { "questionId": 5, "answerLabel": "Endeavor", "isCorrect": false },
+
+    { "questionId": 6, "answerLabel": "Le Titan Bestial", "isCorrect": false },
+    { "questionId": 6, "answerLabel": "Le Titan Colossal", "isCorrect": true },
+    { "questionId": 6, "answerLabel": "Le Titan Féminin", "isCorrect": false },
+    { "questionId": 6, "answerLabel": "Le Titan Cuirassé", "isCorrect": false },
+
+    { "questionId": 7, "answerLabel": "Ninja", "isCorrect": false },
+    { "questionId": 7, "answerLabel": "Paysan", "isCorrect": false },
+    { "questionId": 7, "answerLabel": "Assassin", "isCorrect": true },
+    { "questionId": 7, "answerLabel": "Samouraï", "isCorrect": false },
+
+    { "questionId": 8, "answerLabel": "Renforcement", "isCorrect": true },
+    { "questionId": 8, "answerLabel": "Émission", "isCorrect": false },
+    { "questionId": 8, "answerLabel": "Manipulation", "isCorrect": false },
+    { "questionId": 8, "answerLabel": "Spécialisation", "isCorrect": false },
+
+    { "questionId": 9, "answerLabel": "Igneel", "isCorrect": true },
+    { "questionId": 9, "answerLabel": "Acnologia", "isCorrect": false },
+    { "questionId": 9, "answerLabel": "Gajeel", "isCorrect": false },
+    { "questionId": 9, "answerLabel": "Atlas Flame", "isCorrect": false },
+
+    { "questionId": 10, "answerLabel": "Shinobu", "isCorrect": false },
+    { "questionId": 10, "answerLabel": "Kanao", "isCorrect": false },
+    { "questionId": 10, "answerLabel": "Nezuko", "isCorrect": true },
+    { "questionId": 10, "answerLabel": "Mitsuri", "isCorrect": false },
+
+    { "questionId": 11, "answerLabel": "Cristiano Ronaldo", "isCorrect": false },
+    { "questionId": 11, "answerLabel": "Robert Lewandowski", "isCorrect": false },
+    { "questionId": 11, "answerLabel": "Lionel Messi", "isCorrect": true },
+    { "questionId": 11, "answerLabel": "Karim Benzema", "isCorrect": false },
+
+    { "questionId": 12, "answerLabel": "Brésil", "isCorrect": false },
+    { "questionId": 12, "answerLabel": "Allemagne", "isCorrect": false },
+    { "questionId": 12, "answerLabel": "Espagne", "isCorrect": false },
+    { "questionId": 12, "answerLabel": "France", "isCorrect": true },
+
+    { "questionId": 13, "answerLabel": "Chelsea", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "Real Madrid", "isCorrect": true },
+    { "questionId": 13, "answerLabel": "Manchester City", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "Liverpool", "isCorrect": false },
+
+    { "questionId": 14, "answerLabel": "Paris Saint-Germain", "isCorrect": false },
+    { "questionId": 14, "answerLabel": "AS Monaco", "isCorrect": true },
+    { "questionId": 14, "answerLabel": "Olympique de Marseille", "isCorrect": false },
+    { "questionId": 14, "answerLabel": "Lille OSC", "isCorrect": false },
+
+    { "questionId": 15, "answerLabel": "Italie", "isCorrect": false },
+    { "questionId": 15, "answerLabel": "Allemagne", "isCorrect": false },
+    { "questionId": 15, "answerLabel": "Brésil", "isCorrect": true },
+    { "questionId": 15, "answerLabel": "Argentine", "isCorrect": false },
+
+    { "questionId": 16, "answerLabel": "Zlatan Ibrahimovic", "isCorrect": false },
+    { "questionId": 16, "answerLabel": "Kylian Mbappé", "isCorrect": false },
+    { "questionId": 16, "answerLabel": "Edinson Cavani", "isCorrect": false },
+    { "questionId": 16, "answerLabel": "Josip Skoblar", "isCorrect": true },
+
+    { "questionId": 17, "answerLabel": "Lionel Messi", "isCorrect": false },
+    { "questionId": 17, "answerLabel": "Miroslav Klose", "isCorrect": false },
+    { "questionId": 17, "answerLabel": "Thomas Müller", "isCorrect": false },
+    { "questionId": 17, "answerLabel": "Mario Götze", "isCorrect": true },
+
+    { "questionId": 18, "answerLabel": "RB Leipzig", "isCorrect": false },
+    { "questionId": 18, "answerLabel": "Borussia Dortmund", "isCorrect": true },
+    { "questionId": 18, "answerLabel": "Bayern Munich", "isCorrect": false },
+    { "questionId": 18, "answerLabel": "Ajax Amsterdam", "isCorrect": false },
+
+    { "questionId": 19, "answerLabel": "Lionel Messi", "isCorrect": false },
+    { "questionId": 19, "answerLabel": "Cristiano Ronaldo", "isCorrect": true },
+    { "questionId": 19, "answerLabel": "Karim Benzema", "isCorrect": false },
+    { "questionId": 19, "answerLabel": "Robert Lewandowski", "isCorrect": false },
+
+    { "questionId": 20, "answerLabel": "Arsenal", "isCorrect": false },
+    { "questionId": 20, "answerLabel": "Manchester United", "isCorrect": false },
+    { "questionId": 20, "answerLabel": "Liverpool", "isCorrect": true },
+    { "questionId": 20, "answerLabel": "Bayern Munich", "isCorrect": false },
+
+    { "questionId": 21, "answerLabel": "Giannis Antetokounmpo", "isCorrect": false },
+    { "questionId": 21, "answerLabel": "Nikola Jokić", "isCorrect": true },
+    { "questionId": 21, "answerLabel": "Stephen Curry", "isCorrect": false },
+    { "questionId": 21, "answerLabel": "Joel Embiid", "isCorrect": false },
+
+    { "questionId": 22, "answerLabel": "Los Angeles Lakers", "isCorrect": false },
+    { "questionId": 22, "answerLabel": "Boston Celtics", "isCorrect": false },
+    { "questionId": 22, "answerLabel": "Denver Nuggets", "isCorrect": true },
+    { "questionId": 22, "answerLabel": "Miami Heat", "isCorrect": false },
+
+    { "questionId": 23, "answerLabel": "Chicago Bulls", "isCorrect": true },
+    { "questionId": 23, "answerLabel": "Washington Wizards", "isCorrect": false },
+    { "questionId": 23, "answerLabel": "Los Angeles Lakers", "isCorrect": false },
+    { "questionId": 23, "answerLabel": "Miami Heat", "isCorrect": false },
+
+    { "questionId": 24, "answerLabel": "Wilt Chamberlain", "isCorrect": true },
+    { "questionId": 24, "answerLabel": "Kobe Bryant", "isCorrect": false },
+    { "questionId": 24, "answerLabel": "Michael Jordan", "isCorrect": false },
+    { "questionId": 24, "answerLabel": "LeBron James", "isCorrect": false },
+
+    { "questionId": 25, "answerLabel": "Staples Center", "isCorrect": false },
+    { "questionId": 25, "answerLabel": "United Center", "isCorrect": false },
+    { "questionId": 25, "answerLabel": "Chase Center", "isCorrect": true },
+    { "questionId": 25, "answerLabel": "Madison Square Garden", "isCorrect": false },
+
+    { "questionId": 26, "answerLabel": "9", "isCorrect": false },
+    { "questionId": 26, "answerLabel": "10", "isCorrect": false },
+    { "questionId": 26, "answerLabel": "11", "isCorrect": true },
+    { "questionId": 26, "answerLabel": "12", "isCorrect": false },
+
+    { "questionId": 27, "answerLabel": "Dwyane Wade", "isCorrect": false },
+    { "questionId": 27, "answerLabel": "Carmelo Anthony", "isCorrect": false },
+    { "questionId": 27, "answerLabel": "Chris Bosh", "isCorrect": false },
+    { "questionId": 27, "answerLabel": "LeBron James", "isCorrect": true },
+
+    { "questionId": 28, "answerLabel": "Espagne", "isCorrect": false },
+    { "questionId": 28, "answerLabel": "France", "isCorrect": false },
+    { "questionId": 28, "answerLabel": "États-Unis", "isCorrect": true },
+    { "questionId": 28, "answerLabel": "Australie", "isCorrect": false },
+
+    { "questionId": 29, "answerLabel": "Real Madrid", "isCorrect": true },
+    { "questionId": 29, "answerLabel": "FC Barcelone", "isCorrect": false },
+    { "questionId": 29, "answerLabel": "Olympiakos", "isCorrect": false },
+    { "questionId": 29, "answerLabel": "CSKA Moscou", "isCorrect": false },
+
+    { "questionId": 30, "answerLabel": "Giannis Antetokounmpo", "isCorrect": true },
+    { "questionId": 30, "answerLabel": "Nikola Jokić", "isCorrect": false },
+    { "questionId": 30, "answerLabel": "Kristaps Porziņģis", "isCorrect": false },
+    { "questionId": 30, "answerLabel": "Rudy Gobert", "isCorrect": false }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "id": 3
+    }
+  ]
+}
