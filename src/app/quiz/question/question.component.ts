@@ -16,7 +16,17 @@ export class QuestionComponent implements OnInit {
     this.loadQuestions();
   }
 
-  loadQuestions() {
-    this.quizContent = this.quizService.quizContent;
+  loadQuestions(): void {
+    if (this.categoryId) {
+      this.quizService.getQuizContentByCategory(this.categoryId).subscribe(
+        (questions: any[]) => {
+          console.log('Questions récupérées:', questions);
+          this.quizContent = questions; // Stockez les questions récupérées
+        },
+        (error) => {
+          console.error('Erreur lors de la récupération des questions', error);
+        }
+      );
+    }
   }
 }

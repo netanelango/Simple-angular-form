@@ -44,13 +44,12 @@ export class QuizService {
     this.playerAnswers.push({questionId, answer});
   }
 
-  // Modifié pour retourner un Observable
   getQuizContentByCategory(categoryId: number): Observable<any[]> {
     this.resetQuiz();
 
     return this.http.get<any[]>(`http://localhost:3000/questions?categoryId=${categoryId}`).pipe(
       switchMap((questions: any[]) => {
-        console.log('Questions récupérées:', questions); // Vérifiez ce qui est récupéré
+        console.log('Questions récupérées:', questions);
         const answerRequests = questions.map(question =>
           this.http.get<any[]>(`http://localhost:3000/answers?questionId=${question.id}`).pipe(
             map((answers: any[]) => ({
@@ -60,7 +59,7 @@ export class QuizService {
             })),
             catchError(err => {
               console.error(`Erreur lors de la récupération des réponses pour la question ${question.id}`, err);
-              return of([]); // Retourne un tableau vide en cas d'erreur
+              return of([]);
             })
           )
         );
@@ -68,7 +67,7 @@ export class QuizService {
       }),
       catchError(err => {
         console.error('Erreur lors de la récupération des questions', err);
-        return of([]); // Retourne un tableau vide en cas d'erreur
+        return of([]);
       })
     );
   }

@@ -12,7 +12,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'quiz/:categoryId',
+    path: 'quiz/:playerName/:categoryId',
     component: QuizComponent
   },
   {

@@ -9,27 +9,26 @@ import { AuthService } from "../auth/auth.service";
 })
 export class HomeComponent implements OnInit {
   playerName = '';
-  selectedCategoryId: number | null = null; // Propriété pour stocker la catégorie sélectionnée
+  selectedCategoryId: number | null = null;
 
   constructor(private router: Router, private authService: AuthService) { }
 
   ngOnInit(): void {
-    // Nous verrons plus tard comment gérer cela avec des observables
     this.authService.isUserConnected();
     this.playerName = this.authService.user?.username || '';
   }
 
   get isPlayerNameFill() {
-    return this.playerName.length < 1 || this.selectedCategoryId === null; // Assurez-vous qu'une catégorie est sélectionnée
+    return this.playerName.length < 1 || this.selectedCategoryId === null;
   }
 
   navigateToQuiz() {
     if (this.playerName.length > 0 && this.selectedCategoryId !== null) {
-      this.router.navigate(['/quiz', this.playerName]);
+      this.router.navigate(['/quiz', this.playerName, this.selectedCategoryId]);
     }
   }
 
   onCategorySelected(categoryId: number) {
-    this.selectedCategoryId = categoryId; // Mettez à jour la catégorie sélectionnée
+    this.selectedCategoryId = categoryId;
   }
 }
