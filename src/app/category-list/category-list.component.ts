@@ -8,9 +8,8 @@ import { QuizService } from '../shared/services/quiz.service';
 })
 export class CategoryListComponent implements OnInit {
   categories: any[] = [];
-  selectedCategoryId: number | null = null; // Propriété pour suivre la catégorie sélectionnée
+  selectedCategoryId: number | null = null;
 
-  // Émet l'ID de la catégorie sélectionnée
   @Output() categorySelected = new EventEmitter<number>();
 
   constructor(private quizService: QuizService) {}
@@ -27,7 +26,7 @@ export class CategoryListComponent implements OnInit {
 
   selectCategory(categoryId: number): void {
     console.log(`Catégorie sélectionnée : ${categoryId}`);
-    this.selectedCategoryId = categoryId; // Mettez à jour la catégorie sélectionnée
-    this.categorySelected.emit(categoryId); // Émet l'événement
+    this.selectedCategoryId = categoryId;
+    this.categorySelected.emit(categoryId);
   }
 }

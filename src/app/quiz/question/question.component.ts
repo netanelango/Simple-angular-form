@@ -21,7 +21,7 @@ export class QuestionComponent implements OnInit {
       this.quizService.getQuizContentByCategory(this.categoryId).subscribe(
         (questions: any[]) => {
           console.log('Questions récupérées:', questions);
-          this.quizContent = questions; // Stockez les questions récupérées
+          this.quizContent = questions;
         },
         (error) => {
           console.error('Erreur lors de la récupération des questions', error);
